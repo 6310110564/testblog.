@@ -15,6 +15,9 @@
 
 .listItem {
   margin: 0;
+  padding: 10%;
+  box-shadow: 5px 5px 15px 5px rgba(50, 50, 50, .5);
+  border-radius: 15px;
 }
 
 .listItem::marker {
@@ -46,9 +49,18 @@
 
 .textCenter {
   text-align: center;
+  padding: 50px 50px;
+  margin: 0% -5%;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
+  
+}
+
+.main {
+  /* background-image: url(../images/gatsby-icon.png); */
 }
